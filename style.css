@@ -71,20 +71,23 @@ a:hover {
     color: rgb(218, 64, 218);
 }
 
+.first-square {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 .background {
     z-index: -1;
     width: 100%;
-    margin-top: -150;
+    margin-top: 0;
 }
 
 .theatre-feats {
     z-index: 1;
-    height: 40%;
     width: 100%;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    top: 4.5em;
+    justify-content: center;
+    top: 20%;
     color: rgb(245, 245, 245);
     display: flex;
     font-size: 5em;
